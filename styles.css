@@ -1,0 +1,32 @@
+.logo {
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+   
+.menu a:hover {
+    transition: 0.3s ease;
+    color: #0CBF53;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+li {
+    list-style: none;
+}
+
+li:hover {
+    color: #0CBF53;
+}
